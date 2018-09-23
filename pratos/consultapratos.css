@@ -1,0 +1,48 @@
+a { color: black; 
+    text-decoration: none;
+}
+h1 { font-family: verdana;
+     font-size: 15;
+}
+h2 { font-family: Calibri ;
+     font-size: 15; 
+     width: 950px;
+     height:20px;
+     border:solid 2px;
+     padding-right: 10px;
+}
+
+h3{ border:solid 2px;
+    border-color: black;
+    font-family: comic sans ms;
+    font-size: 12;
+    background-color: green;
+    padding: 5px;
+    position:absolute;
+    top:140;
+    left:40;
+    box-shadow: #000 2px 2px 1px;
+}
+
+a.branco{color: white;
+}
+div#tabela{
+overflow: auto; 
+width: 800px; 
+height: 200px; 
+border:solid 2px;
+ position:absolute;
+    top:220;
+    left:20;
+
+}
+tr{border: 1px solid black;
+    background: #F0FFF0;
+}
+td{ border: 1px solid black;
+    background: #F0FFF0;
+    }
+th{border: 1px solid black;
+    background: #F0FFF0;
+    
+}

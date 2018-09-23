@@ -1,0 +1,43 @@
+﻿<!DOCTTYPE html>
+<html >
+	<head>
+		<title> Cadastro de Pratos - Sistema de Restaurantes -  </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="funcoes.js"></script>
+		<link rel="stylesheet " type="text/css" href="cadastropratos.css"/>
+		</head>
+	<body>
+		<header>
+			<h2><a href="../telainicial.html"  > Home </a> 	  
+			<a href="../restaurantes/consultarestaurantes.html" >Restaurantes </a> 
+            <a href="../pratos/consultapratos.html"  >  Pratos  </a> 
+		</header>
+		<div>
+			<h1> CADASTRO DE PRATO </h1>
+		</div>
+		<div>
+			<h3><dt> Dados </dt></h3>
+		</div>
+		<form id="frmCadastro">
+		<ul>
+			<h4 id="Restaurante"><li>
+				<label  for="txtCodigo">Restaurante</label><br>
+				<input type="text" size="80" id="txtRest"/>
+			</li></h4>
+			<h4 id="Prato"><li>
+				<label  for="txtNome">Prato</label><br>
+				<input  type="text" size="80" id="txtNome"/>
+			</li></h4>
+			<h4 id="Preco"><li>
+				<label for="txtTelefone">Preço (R$):</label><br>
+				<input  type="text"  id="txtPreco"/>
+			</li></h4>
+			<li>
+				<input type="submit" value="Salvar" id="btnSalvar"/>
+				<a id="btnCancelar" href="../pratos/consultapratos.html" />Cancelar </a>
+			</li>
+		</ul>
+	</form>
+	</body>
+</html>

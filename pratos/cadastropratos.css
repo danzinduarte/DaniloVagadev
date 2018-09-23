@@ -1,0 +1,90 @@
+a { color: black; 
+	text-decoration: none;
+}
+h1 { font-family: verdana;
+	 font-size: 15;
+}
+h2 { font-family: Calibri ;
+     font-size: 15; 
+     width: 950px;
+     height:20px;
+     border:solid 2px;
+     padding-right: 10px;
+}
+h3 { font-size: 14;
+     width: 800px;
+     height:300px;
+     border:solid 3px;
+     padding-left: : 10px;
+     margin-left: 40px;
+}   
+h4#Restaurante { font-size: 14;
+     width: 600px;
+     height:20px;
+     padding-left: : 10px;
+     margin-left: 40px;
+     position:absolute;
+     top:150;
+     left:80;
+
+}
+h4#prato { font-size: 14;
+     width: 600px;
+     height:20px;
+     padding-left: : 10px;
+     margin-left: 40px;
+     position:absolute;
+     top:220;
+     left:80;
+
+}
+h4#preco { font-size: 14;
+     width: 600px;
+     height:20px;
+     padding-left: : 10px;
+     margin-left: 40px;
+     position:absolute;
+     top:290;
+     left:80;
+
+}
+dt { background: white;
+    border-color: white;
+    position: absolute;
+    top:120;
+    left:50;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+
+a#btnCancelar{ border:solid 2px;
+    border-color: black;
+    font-family: comic sans ms;
+    font-size: 12;
+    box-shadow: #000 2px 2px 1px;
+    background-color: red;
+    padding: 5px;
+    position:absolute;
+    top: 370;
+    left:120;
+    color: white;
+    
+}
+
+input#btnSalvar{ border:solid 2px;
+    border-color: black;
+    font-family: comic sans ms;
+    font-size: 12;
+    box-shadow: #000 2px 2px 1px;
+    background-color: green;
+    padding: 5px;
+    position:absolute;
+    top:370;
+    left:200;
+    color: white;
+}
+ul {
+ list-style-type: none;
+ } 

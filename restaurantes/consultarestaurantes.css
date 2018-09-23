@@ -1,0 +1,82 @@
+a { color: black; 
+	text-decoration: none;
+}
+h1 { font-family: verdana;
+	 font-size: 15;
+}
+h2 { font-family: Calibri ;
+     font-size: 15; 
+     width: 950px;
+     height:20px;
+     border:solid 2px;
+     padding-right: 10px;
+}
+h3 { font-size: 14;
+     width: 800px;
+     height:150px;
+     border:solid 3px;
+     padding-left: : 10px;
+     margin-left: 40px;
+}   
+h4 { font-size: 14;
+     width: 600px;
+     height:20px;
+     padding-left: : 10px;
+     margin-left: 40px;
+     position:absolute;
+     top:90;
+     left:80;
+
+}
+dt { background: white;
+    border-color: white;
+    position: absolute;
+    top:65;
+    left:50;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+h5{ border:solid 2px;
+    border-color: black;
+    font-family: comic sans ms;
+    font-size: 12;
+    box-shadow: #000 2px 2px 1px;
+    background-color: blue;
+    padding: 5px;
+    position:absolute;
+    top:160;
+    left:120;
+}
+a.branco{color: white;
+}
+
+form#borda{border: solid 2px;
+}
+
+h6{ border:solid 2px;
+    border-color: black;
+    font-family: comic sans ms;
+    font-size: 12;
+    background-color: green;
+    padding: 5px;
+    position:absolute;
+    top:152;
+    left:220;
+    box-shadow: #000 2px 2px 1px;
+}
+tr{border: 1px solid black;
+    background: #F0FFF0;
+}
+td{ border: 1px solid black;
+    background: #F0FFF0;
+    }
+th{border: 1px solid black;
+    background: #F0FFF0;
+    
+}
+table{    position:absolute;
+    top:250;
+    left:220;
+}

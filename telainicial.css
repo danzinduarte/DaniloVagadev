@@ -1,0 +1,11 @@
+a{ 
+	color: black; 
+	text-decoration: none;
+}
+h2{ font-family: Calibri ;
+	font-size: 15; 
+	width: 1000px;
+    height:20px;
+    border:solid 2px;
+    padding-right: 10px;
+}
